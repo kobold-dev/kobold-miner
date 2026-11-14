@@ -1,0 +1,166 @@
+kobold-miner — End-User License Agreement
+Copyright (c) 2026 kobold-miner. All rights reserved.
+https://kobold-miner.dev/
+
+This software ("the Software") is licensed, not sold. By downloading, installing,
+or using the Software you agree to the terms below. If you do not agree to these
+terms, do not download, install, or use the Software.
+
+1. LICENSE GRANT
+   You are granted a revocable, non-exclusive, non-transferable, limited, worldwide
+   license to use the Software, in unmodified form, to mine cryptocurrency on
+   hardware that you own or operate, for personal or commercial purposes.
+
+2. OWNERSHIP
+   The Software is licensed, not sold. The copyright holder retains all right, title,
+   and interest in and to the Software, including all intellectual property rights. No
+   rights are granted except as expressly stated herein.
+
+3. RESTRICTIONS
+   You may not modify, adapt, translate, or create derivative works of the Software.
+   You may not disassemble, decompile, reverse engineer, reverse assemble, decrypt,
+   or otherwise attempt to derive the source code, algorithms, or internal structure
+   of the Software, except to the extent this restriction is prohibited by applicable
+   law. You may not remove or alter any copyright, trademark, or other proprietary
+   notice contained in the Software.
+
+4. REDISTRIBUTION
+   You may redistribute the Software only if it is distributed complete and entirely
+   unmodified — the original executable and all accompanying files exactly as
+   released, including the signature files. Any sale, rental, lease, loan,
+   sublicensing, resale, or distribution in modified form is prohibited.
+
+5. DEVELOPER FEE
+   The Software contains a built-in developer fee. The fee rate depends on the
+   algorithm being mined and is displayed when the Software starts (for example,
+   "Dev fee 2.00% enabled"); it is applied transparently while mining. You may not
+   cancel, reduce, change, remove, block, redirect, or otherwise interfere with the
+   developer fee by any means.
+
+6. DATA AND PRIVACY
+   The Software does not collect, store, or transmit any personal data, and contains
+   no telemetry, analytics, or update-checking. Its only outbound network connections
+   are to the mining pool you configure and, during the developer-fee interval, to
+   the developer's pool. The optional local monitoring API, when enabled, listens on
+   your own machine (127.0.0.1 by default) and is not exposed elsewhere unless you
+   configure it to be.
+
+7. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+   FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+8. LIMITATION OF LIABILITY
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE AUTHORS OR
+   COPYRIGHT HOLDERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+   EXEMPLARY, OR CONSEQUENTIAL DAMAGES — INCLUDING BUT NOT LIMITED TO LOST REVENUE OR
+   PROFITS, UNMINED OR LOST REWARDS, HARDWARE DAMAGE OR WEAR, DATA LOSS, OR BUSINESS
+   INTERRUPTION — WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
+   OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF OR INABILITY TO USE IT,
+   EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN ANY CASE, THE TOTAL
+   AGGREGATE LIABILITY OF THE COPYRIGHT HOLDER SHALL NOT EXCEED THE AMOUNT YOU PAID
+   FOR THE SOFTWARE, IF ANY. YOU ARE SOLELY RESPONSIBLE FOR OPERATING YOUR HARDWARE
+   SAFELY (TEMPERATURES, POWER LIMITS, ELECTRICAL LOAD) AND FOR COMPLYING WITH ALL
+   LAWS AND ELECTRICITY TERMS THAT APPLY WHERE YOU RUN IT.
+
+9. TERMINATION
+   This license terminates automatically if you breach any of its terms. Upon
+   termination you must stop using and delete all copies of the Software.
+
+10. THIRD-PARTY COMPONENTS
+   The Software includes the third-party components below. Each remains governed by its
+   own license, reproduced or referenced under THIRD-PARTY NOTICES at the end of this file:
+   - RandomX proof-of-work (BSD-3-Clause), Copyright (c) 2018-2019, tevador and
+     Copyright (c) 2014-2019, The Monero Project;
+   - NVIDIA CUTLASS / CuTe, compiled into the GPU kernels (BSD-3-Clause),
+     Copyright (c) 2017-2026 NVIDIA CORPORATION & AFFILIATES;
+   - Mbed TLS 4.1 and TF-PSA-Crypto (Apache License 2.0, chosen from its Apache-2.0 OR
+     GPL-2.0-or-later dual license), Copyright The Mbed TLS Contributors;
+   - Linux build only: LLVM libc++, libc++abi and libunwind (Apache License 2.0 with
+     LLVM Exceptions).
+
+11. ASSUMPTION OF RISK
+   Cryptocurrency mining consumes significant electrical power and causes wear to
+   computer hardware; you knowingly accept these risks. The Software does not
+   guarantee any mining reward, hashrate, uptime, profitability, or that mining will
+   be economical, and the value of any cryptocurrency mined may fluctuate or reach
+   zero. Nothing in the Software or its documentation constitutes financial,
+   investment, tax, or legal advice.
+
+12. COMPLIANCE, EXPORT, AND SANCTIONS
+   You are solely responsible for ensuring that your use of the Software — including
+   cryptocurrency mining and any resulting income — is lawful where you operate it.
+   You may not use the Software in any jurisdiction where it is prohibited, nor in
+   violation of any applicable export-control or economic-sanctions law, and you
+   represent that you are not located in, under the control of, or acting on behalf
+   of, any embargoed or sanctioned territory or party.
+
+13. CHANGES
+   The copyright holder may release updated versions of the Software under these or
+   revised terms. The terms that accompany a given version govern that version; your
+   continued use of a version constitutes acceptance of the terms shipped with it.
+
+14. SEVERABILITY
+   If any provision of this Agreement is held invalid or unenforceable, that
+   provision shall be limited or severed to the minimum extent necessary, and the
+   remaining provisions shall remain in full force and effect.
+
+15. ENTIRE AGREEMENT
+   This Agreement constitutes the entire agreement between you and the copyright
+   holder concerning the Software and supersedes any prior or contemporaneous
+   understanding on that subject.
+
+----------------------------------------------------------------------------------------
+THIRD-PARTY NOTICES
+
+RandomX — Copyright (c) 2018-2019, tevador <tevador@gmail.com>; Copyright (c) 2014-2019,
+The Monero Project. All rights reserved.
+Redistribution and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, this list of
+   conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of
+   conditions and the following disclaimer in the documentation and/or other materials
+   provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors may be used
+   to endorse or promote products derived from this software without specific prior
+   written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+NVIDIA CUTLASS — Copyright (c) 2017-2026 NVIDIA CORPORATION & AFFILIATES. All rights
+reserved. SPDX-License-Identifier: BSD-3-Clause
+Redistribution and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, this list of
+   conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of
+   conditions and the following disclaimer in the documentation and/or other materials
+   provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors may be used
+   to endorse or promote products derived from this software without specific prior
+   written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Mbed TLS 4.1 / TF-PSA-Crypto — Copyright The Mbed TLS Contributors. Used under the Apache
+License, Version 2.0 (Mbed TLS is dual-licensed Apache-2.0 OR GPL-2.0-or-later; the Apache-2.0
+option is the one taken): https://www.apache.org/licenses/LICENSE-2.0
+
+LLVM libc++ / libc++abi / libunwind (Linux build) — Copyright (c) the LLVM Project
+contributors. Licensed under the Apache License, Version 2.0 with LLVM Exceptions:
+https://llvm.org/LICENSE.txt
